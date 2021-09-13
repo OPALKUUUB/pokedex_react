@@ -1,5 +1,5 @@
 # This a project that learn about react
-![image](https://user-images.githubusercontent.com/63914959/133018223-85e046d2-5051-47c1-8b24-91cd3741eb46.png)
+<img src="https://user-images.githubusercontent.com/63914959/133018223-85e046d2-5051-47c1-8b24-91cd3741eb46.png" width="60%">
 When you refresh this page the pokedex on hand1 and hand2 will random and total the exp of each hand the greater will winner.
 
 ##### Lesson 1
