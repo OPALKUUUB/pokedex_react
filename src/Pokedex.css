@@ -5,4 +5,13 @@
 .Pokedex-cards {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Pokedex-winner {
+    text-align: center;
+}
+
+.Pokedex-lose {
+    text-align: center;
 }

@@ -1,5 +1,8 @@
 .Pokecard {
     text-align: center;
     width: 300px;
-    display: inline-block;
+}
+
+.Pokecard-image {
+    width: 200px;
 }

@@ -23,17 +23,19 @@ class Pokegame extends Component{
             hand1.push(randPokemon);
         }
         var exp1 = 0;
-        var count = hand1.length;
+        var exp2 = 0;
+        var count = 4;
         
-        // while(count) {
-        //     console.log(exp1, count, hand1[count].base_experience);
-        //     exp1+=hand1[count].base_experience
-        //     count--;
-        // }
+        for(let i=0; i<count; i++) {
+            exp1+=hand1[i].base_experience;
+            exp2+=hand2[i].base_experience
+        }
+        var win1 = (exp1>exp2) ? true : false;
+        var win2 = (exp2>exp1) ? true : false;
         return (
             <div className="Pokegame">
-                <Pokedex pokemon={hand1} />
-                <Pokedex pokemon={hand2} />
+                <Pokedex pokemon={hand1} exp={exp1} winner={win1} />
+                <Pokedex pokemon={hand2} exp={exp2} winner={win2} />
             </div>
         );
     }
